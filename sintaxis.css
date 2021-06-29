@@ -1,0 +1,26 @@
+    .fondoPagina{
+        background-color: rgba(211, 211, 211, 0.7);
+    }
+    .propiedades{
+        background-color: silver;
+        color: rgb(68, 109, 231);
+        font-style: normal;
+        font-family: monospace;
+        font-size: 40px;/*  */
+    }
+    .lista{
+        color: rebeccapurple;
+        font-style: normal;
+        font-family: monospace;
+        font-size: 20px;
+    }
+    span{
+        color: red;
+    }
+    article{
+        color: rgb(255, 0, 0);
+        font-style: normal;
+        font-family: monospace;
+        font-size: 20px;
+    }
+

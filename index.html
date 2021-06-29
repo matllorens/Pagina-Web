@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pagina WEB</title>
+    <!--
+        Enlazar archivos css
+        Enlazar archivos js
+
+        añadir fuentes externas
+        metadatos (keywords, descriptions, robots, author, owner)
+    -->
+    <!--<style>
+    .fondoPagina{
+        background-color: rgba(211, 211, 211, 0.7);
+    }
+    .propiedades{
+        color: rgb(68, 109, 231);
+        font-style: normal;
+        font-family: monospace;
+        background-color: silver;
+        font-size: 40px;
+    }
+    .lista{
+        color: rebeccapurple;
+        font-style: normal;
+        font-family: monospace;
+        font-size: 20px;
+    }
+    span{
+        color: red;
+    }
+
+</style>-->
+    <link rel="stylesheet" href="sintaxis.css">
+    <link rel="stylesheet" href="normalize.css">
+    <script src="modernizr-custom.js"></script>
+</head>
+<body class="fondoPagina">
+    <header>
+        <hgroup>
+            <h1 class="propiedades">PAGINA WEB</h1>
+            <nav>
+                <ul>
+                    <li><a class="lista" target="_blank" href="http://facebook.com">facebook</a></li>
+                    <li><a class="lista" target="_blank" href="http://udemy.com">udemy</a></li>
+                    <li><a class="lista" target="_blank" href="http://google.com">google</a></li>
+                    <li><a class="lista" target="_blank" href="http://instagram.com">instagram</a></li>
+                    <li><a class="lista" target="_blank" href="#ejemplo">parte de la pagina</a></li>
+                    <li><a class="lista" target="_blank" href="prueba/14+-+enlaces.html">archivo local en carpeta interna</a></li>
+                    <li><a class="lista" target="_blank" href="../prueba2/14+-+enlaces.html">archivo local en otra carpeta externa</a></li>
+
+                </ul>
+            </nav>
+        </hgroup>
+    </header>
+<figure>
+    <figcaption>FIGCAPTION MUSICA</figcaption>
+    <img src="equalizer-153212_1280.png" alt="IMAGEN DE MUSICA">
+</figure>
+
+    <section>
+        <article> 
+            <h1>h1 de articulo</h1>
+            <p>HOLA 1 dlgkhdgkhfdkhfdgkhfkhdfgkhdpkhdgshdgsh</p></article>
+        <article> <p>HOLA 2 dlgkhdgkhfdkhfdgkhfkhdfgkhdpkhdgshdgsh</p></article>
+        <article> <p>HOLA 3 dlgkhdgkhfdkhfdgkhfkhdfgkhdpkhdgshdgsh</p></article>
+        <article> <p>HOLA 4 dlgkhdgkhfdkhfdgkhfkhdfgkhdpkhdgshdgsh</p></article>
+        <article> <p>HOLA 5 dlgkhdgkhfdkhfdgkhfkhdfgkhdpkhdgshdgsh</p></article>
+    </section>
+    <section id="ejemplo">
+        <p>OBJETIVO</p>
+    </section>
+    <p class="lista">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+        commodo consequat. Duis <span >esto es prueba de span</span> irure dolor in reprehenderit in 
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+        qui officia deserunt mollit anim id est laborum."
+    </p>
+    
+    <p class="lista">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+        commodo consequat. Duis <strong >esto es prueba de strong</strong> irure dolor in reprehenderit in 
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+        qui officia deserunt mollit anim id est laborum."
+    </p>
+
+    <p class="lista">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+        commodo consequat. Duis <em >esto es prueba de em</em> irure dolor in reprehenderit in 
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+        qui officia deserunt mollit anim id est laborum."
+    </p>
+    
+    <aside>
+        <article>Este es un articulo ASIDE</article>
+    </aside>
+    <footer>ESTE ES EL FOOTER</footer>
+    <!--PARA AUTOPLAY <audio autoplay src="Twenty One Pilots - Saturday (Lyric Video).mp3" type="audio/mp3" controls="controls"></audio>-->
+    <audio src="Twenty One Pilots - Saturday (Lyric Video).mp3" type="audio/mp3" controls="controls"></audio>
+    <p></p>
+    <!--<video src="twenty one pilots_ Stressed Out [OFFICIAL VIDEO].mp4" type="video/mp4" controls="controls"></video>
+    NO CONVIENE SUBIR EL VIDEO, ES MEJOR MANDARLO A YOUTUBE Y SUBIR EL VIDEO INSERTADO CON YOUTUBE-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xGEIEnABnDg"
+     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <form id="form" name='form' method="POST" action="suscribe.php">
+        <span>SPAN DENTRO DE FORM</span>
+        <input id='email' name='email' type='text' placeholder="   introduce tu dato" 
+        onfocus='if(this.placeholder=='')this.placeholder='introduce tu dato''/>
+
+        <input type="submit" name="Submit" id="button" value="Suscribe"/>
+    </form>
+</body>
+</html>
